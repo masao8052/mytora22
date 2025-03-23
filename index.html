@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday, Love! 🎉</h1>
+    <p>Let's play a quick quiz!</p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <div class="quiz hidden">
+    <h2>Where did we first meet?</h2>
+    <button onclick="answer(true)">At the cafe ☕</button>
+    <button onclick="answer(false)">At the gym 🏋️‍♀️</button>
+  </div>
+
+  <div class="result hidden">
+    <h2>You got it! 💖</h2>
+    <p>Now click below for your surprise...</p>
+    <button onclick="showFinal()">🎁 Open Gift 🎁</button>
+  </div>
+
+  <div class="final hidden">
+    <h2>I Love You So Much 💕</h2>
+    <p>Thanks for being in my life. Enjoy your day!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

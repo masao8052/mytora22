@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #ffe6f0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container, .quiz, .result, .final {
+  margin-top: 40px;
+}
